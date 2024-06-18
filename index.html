@@ -37,6 +37,11 @@
 </head>
 
 <body>
+  <!-- The dark mode
+  <div class="dark-mode-switch">
+    <input type="checkbox" id="darkModeToggle">
+    <label for="darkModeToggle"></label>
+  </div>  -->
 
   <!-- ======= Mobile nav toggle button ======= -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
@@ -46,7 +51,7 @@
     <div class="d-flex flex-column">
 
       <div class="profile">
-        <img src="assets/img/Profile photo.jpg" alt="" class="img-fluid rounded-circle">
+        <img src="assets/img/background.jpeg" alt="" class="img-fluid rounded-circle">
         <h1 class="text-light"><a href="index.html">Sidharth Panda</a></h1>
         <div class="social-links mt-3 text-center">
           <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
@@ -117,7 +122,7 @@
               </div>
               <div class="col-lg-6">
                 <ul>
-                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>22</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.Tech</span></li>
                   <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>sidharthpandarpg1@gmail.com</span></li>
                   <!-- <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li> -->
@@ -266,6 +271,7 @@
 
         <div class="section-title">
           <h2>Resume</h2>
+          <a href="assets/SidharthPanda_resume.pdf" download>Download PDF</a>
           <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
 
@@ -324,81 +330,82 @@
     </section><!-- End Resume Section -->
 
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio section-bg">
+    <section id="portfolio" class="portfolio">
       <div class="container">
-
+    
         <div class="section-title">
-          <h2>Projects</h2>
-          <p>The following are my projects which were I have made with the knowledge of python and OpenCV.</p>
+          <h2>Portfolio</h2>
+          <p>Check out some of my work</p>
         </div>
+    
+        <div class="row portfolio-container">
 
-        <!-- <div class="row" data-aos="fade-up">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div> -->
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Fingerprint-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/digital_forensics-2.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/fingerprint-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Fingerprint Analyser"><i class="bx bx-plus"></i></a>
-                <a href="fingerprint-analyser.html" title="More Details"><i class="bx bx-link"></i></a>
+                <a href="assets/img/portfolio/images.png" class="portfolio-lightbox" title="Digital Forensics course on Udemy"><i class="bx bx-plus"></i></a>
+                <a href="udemy.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Data-Recovery-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/Data-Recovery-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Disk Recovery Tool"><i class="bx bx-plus"></i></a>
-                <a href="disk-recovery.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/Network-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/networking-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Network Scanner Tool"><i class="bx bx-plus"></i></a>
-                <a href="network-scan.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/virtual-keyboard-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-links">
-                <a href="assets/img/portfolio/virual-keyboard-1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Virtual Keyboard"><i class="bx bx-plus"></i></a>
-                <a href="virtual-keyboard.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+    
+          <div class="col-lg-4 col-md-6 portfolio-item">
             <div class="portfolio-wrap">
               <img src="assets/img/portfolio/security-camera-1.jpg" class="img-fluid" alt="">
               <div class="portfolio-links">
-                <a href="assets/img/portfolio/security-camera-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Security Camera"><i class="bx bx-plus"></i></a>
+                <a href="assets/img/portfolio/security-camera-2.jpg" class="portfolio-lightbox" title="Virtual CCTV Camera"><i class="bx bx-plus"></i></a>
                 <a href="Security_cam.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
-
+    
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Network-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/networking-2.jpg" class="portfolio-lightbox" title="The Network Scanner"><i class="bx bx-plus"></i></a>
+                <a href="network-scan.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Fingerprint-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/fingerprint-1.jpg" class="portfolio-lightbox" title="The Fingerprint Scanner"><i class="bx bx-plus"></i></a>
+                <a href="fingerprint-analyser.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/virtual-keyboard-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/virual-keyboard-1.png" class="portfolio-lightbox" title="The Virtual Keyboard"><i class="bx bx-plus"></i></a>
+                <a href="virtual-keyboard.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/Data-Recovery-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-links">
+                <a href="assets/img/portfolio/Data-Recovery-2.jpg" class="portfolio-lightbox" title="The Data recovery Tool"><i class="bx bx-plus"></i></a>
+                <a href="disk-recovery.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+    
         </div>
-
+    
       </div>
-     </section><!-- End Portfolio Section -->
+    </section>
+    
+     <!-- End Portfolio Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
@@ -435,7 +442,7 @@
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
             <div class="icon"><i class="bi bi-calendar4-week"></i></div>
             <h4 class="title"><a href="">TryHackme</a></h4>
-            <p class="description">Ranked 4227 out of thousands on TryHackMe, demonstrating exceptional cybersecurity skills and placing in top 1 % of participants.</p>
+            <p class="description">Ranked 1959 out of thousands on TryHackMe, demonstrating exceptional cybersecurity skills and placing in top 1 % of participants.</p>
           </div>
           <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
             <div class="icon"><i class="bi bi-calendar4-week"></i></div>
